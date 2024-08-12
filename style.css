@@ -1,0 +1,87 @@
+
+body{
+     margin: 0;
+     font-family: 'Times New Roman', Times, serif;
+    }
+    .mainContainer{
+        background-color: whitesmoke;
+    }
+.containerTop{
+    
+    display: flex; 
+    align-items: first baseline;
+    justify-content: space-evenly;
+    
+}
+
+.top{
+    /* justify-content: space-around; */
+    border: 2px solid black;
+    padding: 0.4rem;   
+    color: white;
+    background-color: black;
+    border-radius: 15%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+  .top1{
+    margin-left: 8rem;
+}
+
+.top3{
+    margin-left: 37rem;
+    
+}  
+.top4{
+    margin-right: 2rem;
+    
+}  
+.line{
+    border: 0;
+    height: 4px;
+    background-color: rgb(118, 241, 118);
+    width: 100%;   
+}
+
+.containerDown{
+    display: flex;
+}
+
+.containerleft{
+    margin-left: 1rem;
+}
+
+.boxes{
+    border: 1px solid ;
+    border-radius: 45%;
+    padding: 0.5rem;
+    background-image: linear-gradient(to bottom right, #c00679, #ed64b9);
+    color: white;
+}
+.boxesRight {
+    margin-left: 0.3rem;
+}
+.boxes1{
+    background-image: linear-gradient(to bottom right, #AE3EDC, #66A0F4);
+}
+.verticalLine{
+    width: 2px;
+    height: 255px;
+    background-color: rgb(224, 217, 217);
+    margin-left: 11.5rem;
+    margin-top: -15rem;
+}
+
+
+.containerRight{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.paraBox{
+    background-color: white;
+    width: 54rem;
+    padding: 1rem;
+}
+.words1{
+    color: blue;
+}
